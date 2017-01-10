@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Header
+--------------------*/
+#header{
+	margin-bottom: 30px;
+	width: 100%;
+	#header_inner{
+		width: 100%;
+		min-width: 100%;
+		min-width: auto;
+	ul.sns{
+		margin: 20px auto 42px;
+		text-align: center;
+		li {
+			form{
+				input[type="text"]{
+					margin: 26px auto 0px;
+					width: 94% !important;
+					height: 30px;
+					}
+				}
+			}
+		li#form_list{
+			float: none;
+			display: block;
+			clear: both;
+			margin: 0px auto;
+			}
+		}
+	#main_visual{
+		width: 94%;
+		margin-bottom: 30px;
+		}
+	}
+}
+/*Wrapper
+--------------------*/
+#wrap{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+/*TopPage
+--------------------*/
+.home,
+.search,
+.archive,
+.category,
+.tag{
+	#main{
+		width: 585px;
+		margin: 0 auto;
+		article.post{
+			width: 280px;
+			min-height: 300px;
+			margin-left: 0px;
+			margin-bottom: 30px;
+			img{
+				width: 280px;
+				height: 200px;
+			}
+		}
+		article:nth-child(2n+1){
+			margin-left: 0px;
+			margin-right: 20px
+		}
+	}
+}
+/*OuterArticle
+--------------------*/
+.search,
+.archive,
+.category,
+.tag{
+	#main{
+		article.post{
+			margin: 0px 0px 28px;
+			}
+		article.post:nth-child(2n+1){
+			margin-left: 20px !important;
+		}
+		article.post:nth-child(3n){
+			margin: auto 0px;
+		}
+	}
+}
+
+/*Footer
+--------------------*/
+#footer{
+	position: relative;
+	bottom: 0px;
+	z-index: 0;
+	clear: both;
+	#footer_bt{
+		display: none;
+	}
+	nav{
+		overflow: hidden;
+		position: relative;
+		clear: both;
+		text-shadow: -1px 0px 0px #000000;
+		ul{
+			position: relative;
+			left: 0%;
+			float: none;
+			text-align: left;
+			li{
+				position: relative;
+				left: 0%;
+				display: block;
+				float: none;
+				clear: both;
+				padding: 10px 20px 10px;
+				border-right: none;
+				border-bottom: solid 1px #f0f0f0;
+				a{
+					font-size: 20px;
+				}
+			}
+			li:first-child{
+				border-left: none;
+			}
+		}
+	}
+	#footer_inner{
+		display: block !important;
+		clear: both;
+		width: 100%;
+		padding: 0 20px;
+		min-width: 100%;
+		background: none;
+		section.widget_area{
+			width: 100%;
+			min-height: 200px;
+			margin: 0 auto;
+			margin-top: 20px;
+			margin-left: 0px;
+			color: #f0f0f0;
+			vertical-align: top;
+			h2.widget_title{
+				margin-bottom: 0px;
+			}
+			ul{
+				display: block;
+				clear: both;
+				float: none;
+
+				li{
+					width: 100%;
+					border-bottom: solid 1px #f0f0f0;
+					a{
+						display: block;
+						margin-left: 20px;
+						padding-top: 20px;
+						font-size: 18px;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		section:first-child{
+			margin-top: 70px;
+		}
+		section:last-child{
+			margin-bottom: 20px;
+		}
+	}
+}
+/*CopyRight
+--------------------*/
+small#copyright{
+	font-size: 18px;
+}
+/*==================================================
+Page&Single
+==================================================*/
+.page,
+.single{
+	#main{
+			img{
+					width: auto;
+					height: auto;
+				}
+				h1{
+					font-size: 26px;
+				}
+				h2{
+					font-size: 24px;
+				}
+				h3{
+					font-size: 22px;
+				}
+				h4{
+					font-size: 20px;
+				}
+				b,
+				storong{
+					font-weight: bold;
+				}
+				hr{
+					color: #dddddd;
+				}
+			}
+	}
+/*==================================================
+Comments
+==================================================*/
+#comments{
+	#input_area{
+		section.left_content{
+			float: none;
+			width: 100%;
+			input[type="text"],
+			input[type="email"],
+			input[type="url"]{
+				width: 80%;
+			}
+		}
+		section.right_content{
+				clear: both;
+				float: none;
+				width: 100%;
+				margin: 0 auto 0px;
+				padding: 0px;
+
+			}
+		textarea{
+					float: none;
+					margin: 0 auto;
+					padding: 1px 2px;
+				}
+			}
+}
+/*==================================================
+WidgetContent
+==================================================*/
+#calendar_wrap{
+	margin:  0px;
+	margin-left: 20px;
+	text-align: left;
+}
+#wp-calendar{
+	margin:  0px;
+	text-align: left;
+	width: 300px;
+}
