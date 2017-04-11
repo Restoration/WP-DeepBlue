@@ -28,7 +28,7 @@ Clone the repository and install
 
 ```
 $ cd my-wordpress-folder/wp-content/themes/
-$ git clone https://github.com/olefredrik/FoundationPress.git
+$ git clone https://github.com/Restoration/WP-DeepBlue.git
 ```
 
 ## Usage
