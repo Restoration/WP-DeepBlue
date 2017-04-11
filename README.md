@@ -45,7 +45,7 @@ This theme to set up for setting page.
 
 ## Licence
 
-[MIT](https://github.com/Restoration/WP-DeepBlue/LICENCE)
+[MIT](https://github.com/Restoration/WP-DeepBlue/blob/master/README.md)
 
 ## Author
 
