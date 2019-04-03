@@ -16,9 +16,6 @@ I have been able to use, such as weblog and portfolio, in various scenes.
 If it is possible to use, I am very happy as a side made​​.
 Best regards!
 
-## Demo
-[http://deepblue.xix-system.com/](http://deepblue.xix-system.com/)
-
 ## Requirement
 [WordPress](https://wordpress.org/)
 
